@@ -33,3 +33,4 @@ pipeline{
                 sh 'cloudformation validate-template --template-body file://name.yaml --'
             }
         }
+}
